@@ -1,0 +1,18 @@
+.loader {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid pink;
+    border-top: 20px solid cyan;
+    animation: ani 2s ease-in 0s infinite normal;
+}
+
+@keyframes ani {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
